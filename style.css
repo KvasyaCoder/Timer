@@ -7,12 +7,17 @@ body{
     width: 800px;
     margin: auto;
     color: #fff;
+   
     text-align: center;
 }
 h1,h2,h3{
     font-family:'comfortaa';
     font-weight: 100;
     font-size: 3.6rem;
+}
+.watch{
+    
+    font-size: 2.1rem;
 }
 
 #seconds, #tens, .dots{
@@ -42,14 +47,15 @@ button:hover{
 }
 
 @media (max-width: 800px) {
-    body{
-        background: rebeccapurple;
-        margin: 0 auto;
-        justify-content: center;
+    
+    h1{
+        font-size: 5rem;
     }
-    .manageButtons{
-        display:flexbox;
-        justify-content: center;
-
+    .wrapper{
+        font-size: 5rem;
+    }
+    button{
+        border-radius: 15px;
+        font-size: 1.8rem;
     }
 }
