@@ -2,12 +2,14 @@
 
 body{
     background: coral;
+    margin: auto
 }
 .wrapper{
     width: 800px;
     margin: auto;
     color: #fff;
     text-align: center;
+    
     
 }
 h1,h2,h3{
@@ -50,7 +52,7 @@ button:hover{
     color:coral;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
     
     h1{
         font-size: 5rem;
