@@ -33,9 +33,23 @@ button{
     margin-top: 20px;
     transition:  0.5s ease-in-out;
 }
+
 button:hover{
     transition:  0.5s ease-in-out;
     background: #fff;
     border: solid 1px #fff;
     color:coral;
+}
+
+@media (max-width: 800px) {
+    body{
+        background: rebeccapurple;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .manageButtons{
+        display:flexbox;
+        justify-content: center;
+
+    }
 }
