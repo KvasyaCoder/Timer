@@ -7,19 +7,23 @@ body{
     width: 800px;
     margin: auto;
     color: #fff;
-   
     text-align: center;
+    
 }
 h1,h2,h3{
     font-family:'comfortaa';
     font-weight: 100;
     font-size: 3.6rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
-.watch{
-    
+.watch{  
     font-size: 2.1rem;
 }
-
+.manage{
+    justify-content: center;
+    display: flex;
+}
 #seconds, #tens, .dots{
     font-size: 2em;
 }
@@ -57,5 +61,8 @@ button:hover{
     button{
         border-radius: 15px;
         font-size: 1.8rem;
+    }
+    .manage{
+        display: inline;
     }
 }
