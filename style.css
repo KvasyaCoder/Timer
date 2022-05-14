@@ -54,11 +54,11 @@ button:hover{
 
 @media (max-width: 1080px) {
     body{
-        max-width: 800px;
+        max-width: 500px;
         margin: auto;
     }
     h1{
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
     .wrapper{
         font-size: 4rem;
