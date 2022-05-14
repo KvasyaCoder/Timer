@@ -53,12 +53,15 @@ button:hover{
 }
 
 @media (max-width: 1080px) {
-    
+    body{
+        max-width: 900px;
+        margin: auto;
+    }
     h1{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .wrapper{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     button{
         border-radius: 15px;
