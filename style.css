@@ -26,7 +26,7 @@ h1,h2,h3{
     justify-content: center;
     display: flex;
 }
-#seconds, #tens, .dots{
+ #seconds, #tens, #minutes, .dots{
     font-size: 2em;
 }
 button{
